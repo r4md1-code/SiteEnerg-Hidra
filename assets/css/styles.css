@@ -6,105 +6,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #333;
+    background-color: #ffffff;
     line-height: 1.6;
 }
 
-/* Estilos de navegação */
-.navmenu {
-    background-color: #000;
-    padding: 10px 0;
-}
+/* Nav Menu*/
 
-.navmenu ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.navmenu ul li {
-    margin: 0 20px;
-}
-
-.navmenu ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.navmenu ul li a:hover {
-    color: #aaa;
-}
-
-/* Estilos do Hero Section */
-.hero {
-    height: 100vh;
-    background-image: url('assets/images/hydro_background.jpg'); /* Insira uma imagem relacionada à hidroenergia */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-content {
-    color: white;
-}
-
-.hero-content h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.btn {
-    padding: 10px 30px;
-    background-color: #007aff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.btn:hover {
-    background-color: #005bb5;
-}
-
-/* Estilos das seções */
-.section {
-    padding: 60px 20px;
-}
-
-#about, #partners, #contact {
-    text-align: center;
-    padding: 80px 20px;
-}
-
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-footer {
-    text-align: center;
-    background-color: #000;
-    color: white;
-    padding: 20px;
-}
-
-footer p {
-    margin: 0;
-}
