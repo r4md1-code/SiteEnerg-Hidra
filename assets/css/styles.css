@@ -12,25 +12,32 @@ body {
     line-height: 1.6;
 }
 
-/* Nav Menu*/
+.site-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
 .navmenu {
     background-color: #000;
-    padding: 30px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Espaço entre a logo e os itens do menu */
+    align-items: center;
 }
 
 .navmenu ul {
     list-style: none;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding-right: 100px;
+    display: flex; /* Itens em linha */
+    padding-right: 30px;
 }
 
 .navmenu ul li {
-    margin: 0 20px;
+    margin: 0 15px;
+    font-size: 20px;
 }
 
-.navmenu a   {
+.navmenu a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -46,5 +53,6 @@ body {
 }
 
 .navmenu img {
-    justify-content: left;
+    width: 150px; /* Ajuste do tamanho da logo */
+    height: auto;
 }
